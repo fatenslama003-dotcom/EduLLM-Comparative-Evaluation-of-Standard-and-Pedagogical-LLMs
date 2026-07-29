@@ -1,0 +1,123 @@
+{
+  "duree": 15,
+  "questions": [
+    {
+      "id": 1,
+      "texte": "Que vaut l'expression suivante : System.out.println(5 + 2 * 3) ?",
+      "type": "qcm",
+      "options": ["11", "21", "16", "13"],
+      "reponse": "11"
+    },
+    {
+      "id": 2,
+      "texte": "Quel est le mot‑clé utilisé pour définir une constante en Java ?",
+      "type": "qcm",
+      "options": ["const", "static", "final", "constant"],
+      "reponse": "final"
+    },
+    {
+      "id": 3,
+      "texte": "Quelle est la taille en octets du type 'double' en Java ?",
+      "type": "qcm",
+      "options": ["4", "8", "16", "2"],
+      "reponse": "8"
+    },
+    {
+      "id": 4,
+      "texte": "Que donne l'opération 10 / 4 en Java (avec des entiers) ?",
+      "type": "qcm",
+      "options": ["2.5", "2", "3", "2.0"],
+      "reponse": "2"
+    },
+    {
+      "id": 5,
+      "texte": "Laquelle de ces affirmations est vraie concernant l'héritage en Java ?",
+      "type": "qcm",
+      "options": [
+        "Une classe peut hériter de plusieurs classes",
+        "Une classe peut implémenter plusieurs interfaces",
+        "Une interface peut hériter d'une classe",
+        "Une classe abstraite ne peut pas implémenter d'interface"
+      ],
+      "reponse": "Une classe peut implémenter plusieurs interfaces"
+    },
+    {
+      "id": 6,
+      "texte": "Que renvoie l'expression \"Java\".concat(\" est cool\") ?",
+      "type": "qcm",
+      "options": ["Java est cool", "Javaest cool", "Java est cool ", "Java+ est cool"],
+      "reponse": "Java est cool"
+    },
+    {
+      "id": 7,
+      "texte": "Quel modificateur d'accès rend un membre accessible dans le même package et par les sous‑classes (même dans un autre package) ?",
+      "type": "qcm",
+      "options": ["public", "private", "protected", "default"],
+      "reponse": "protected"
+    },
+    {
+      "id": 8,
+      "texte": "Quelle interface définit les méthodes equals() et hashCode() ?",
+      "type": "qcm",
+      "options": ["Comparable", "Iterable", "Object", "Aucune, elles sont dans la classe Object"],
+      "reponse": "Aucune, elles sont dans la classe Object"
+    },
+    {
+      "id": 9,
+      "texte": "Laquelle de ces affirmations est correcte concernant ArrayList et LinkedList ?",
+      "type": "qcm",
+      "options": [
+        "ArrayList est plus efficace pour les insertions au milieu",
+        "LinkedList est plus efficace pour l'accès aléatoire",
+        "ArrayList implémente List, LinkedList implémente Queue",
+        "Les deux implémentent l'interface List"
+      ],
+      "reponse": "Les deux implémentent l'interface List"
+    },
+    {
+      "id": 10,
+      "texte": "Qu'affiche System.out.println(\"1\" + 2 + 3) ?",
+      "type": "qcm",
+      "options": ["6", "123", "15", "1+2+3"],
+      "reponse": "123"
+    },
+    {
+      "id": 11,
+      "texte": "Lequel de ces types est un type primitif en Java ?",
+      "type": "qcm",
+      "options": ["String", "Integer", "char", "Boolean"],
+      "reponse": "char"
+    },
+    {
+      "id": 12,
+      "texte": "Quelle est la superclasse de toutes les classes en Java ?",
+      "type": "qcm",
+      "options": ["Main", "Class", "Object", "Super"],
+      "reponse": "Object"
+    },
+    {
+      "id": 13,
+      "texte": "Écrire le code pour déclarer une variable de type double nommée 'pi' et lui assigner la valeur 3.14159.",
+      "type": "code",
+      "reponse_attendue": "double pi = 3.14159;"
+    },
+    {
+      "id": 14,
+      "texte": "Écrire une méthode qui retourne la moyenne de deux nombres entiers.",
+      "type": "code",
+      "reponse_attendue": "public double moyenne(int a, int b) { return (a + b) / 2.0; }"
+    },
+    {
+      "id": 15,
+      "texte": "Écrire une boucle while qui affiche les nombres pairs de 2 à 10 (inclus).",
+      "type": "code",
+      "reponse_attendue": "int i = 2; while (i <= 10) { System.out.println(i); i += 2; }"
+    },
+    {
+      "id": 16,
+      "texte": "Écrire une classe simple avec un attribut privé 'nom' et ses getter/setter.",
+      "type": "code",
+      "reponse_attendue": "public class Personne { private String nom; public String getNom() { return nom; } public void setNom(String nom) { this.nom = nom; } }"
+    }
+  ]
+}

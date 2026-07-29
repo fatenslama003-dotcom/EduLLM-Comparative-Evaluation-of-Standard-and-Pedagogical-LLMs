@@ -1,0 +1,41 @@
+{
+  "duree": 60,
+  "questions": [
+    {
+      "id": 1,
+      "texte": "Écrire une fonction récursive en Java qui calcule la somme des éléments d’un tableau d’entiers. Donner le code et expliquer le cas d’arrêt.",
+      "type": "code",
+      "reponse_attendue": "public static int sommeRecursive(int[] tab, int index) { if (index == tab.length) return 0; return tab[index] + sommeRecursive(tab, index+1); } // avec explication"
+    },
+    {
+      "id": 2,
+      "texte": "Soit la hiérarchie suivante : une classe abstraite `Forme` avec une méthode abstraite `double aire()`. Des sous-classes `Cercle` (rayon) et `Rectangle` (largeur, hauteur). Écrire ces classes en Java. Ensuite, écrire une méthode qui prend un tableau de `Forme` et affiche l’aire de chacune (polymorphisme).",
+      "type": "code",
+      "reponse_attendue": "abstract class Forme { abstract double aire(); } class Cercle extends Forme { ... } class Rectangle extends Forme { ... } // méthode utilisant le polymorphisme"
+    },
+    {
+      "id": 3,
+      "texte": "Expliquer ce qu’est une exception checked et unchecked en Java. Donner un exemple de chacune et montrer comment les gérer.",
+      "type": "texte",
+      "reponse_attendue": "Checked : IOException, doit être catchée ou déclarée. Unchecked : NullPointerException, RuntimeException, ne nécessite pas de gestion explicite."
+    },
+    {
+      "id": 4,
+      "texte": "Écrire un programme Java qui lit un fichier texte (dont le nom est passé en argument) et compte le nombre de lignes, de mots et de caractères (hors espaces). Utiliser les flux appropriés et gérer les exceptions.",
+      "type": "code",
+      "reponse_attendue": "public class Compteur { public static void main(String[] args) { ... try (BufferedReader br = new BufferedReader(new FileReader(args[0]))) { ... } } }"
+    },
+    {
+      "id": 5,
+      "texte": "À l’aide de l’API Stream de Java, écrire une méthode qui, à partir d’une liste de chaînes, retourne la liste des chaînes dont la longueur est supérieure à 3, triées par ordre alphabétique, et converties en majuscules.",
+      "type": "code",
+      "reponse_attendue": "list.stream().filter(s -> s.length() > 3).sorted().map(String::toUpperCase).collect(Collectors.toList());"
+    },
+    {
+      "id": 6,
+      "texte": "Expliquer la différence entre l’héritage et l’implémentation d’interfaces en Java. Quand utiliser l’un ou l’autre ?",
+      "type": "texte",
+      "reponse_attendue": "L'héritage est une relation 'est-un' pour partager du code, une classe ne peut hériter que d'une seule classe. Les interfaces définissent un contrat, une classe peut en implémenter plusieurs ; utilisées pour définir des comportements communs sans hiérarchie."
+    }
+  ]
+}

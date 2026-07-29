@@ -1,0 +1,113 @@
+{
+  "duree": 15,
+  "questions": [
+    {
+      "id": 1,
+      "texte": "Que vaut l'expression suivante : System.out.println(2 + 3 * 4) ?",
+      "type": "qcm",
+      "options": ["14", "20", "24", "9"],
+      "reponse": "14"
+    },
+    {
+      "id": 2,
+      "texte": "Lequel de ces mots-clés n'est PAS un mot-clé réservé en Java ?",
+      "type": "qcm",
+      "options": ["goto", "strictfp", "main", "transient"],
+      "reponse": "main"
+    },
+    {
+      "id": 3,
+      "texte": "Quelle est la taille en octets du type 'int' en Java ?",
+      "type": "qcm",
+      "options": ["1", "2", "4", "8"],
+      "reponse": "4"
+    },
+    {
+      "id": 4,
+      "texte": "Que donne l'opération 10 / 3 en Java (avec des entiers) ?",
+      "type": "qcm",
+      "options": ["3.33", "3", "4", "3.0"],
+      "reponse": "3"
+    },
+    {
+      "id": 5,
+      "texte": "Quelle classe est la superclasse de toutes les classes Java ?",
+      "type": "qcm",
+      "options": ["Main", "String", "Object", "Class"],
+      "reponse": "Object"
+    },
+    {
+      "id": 6,
+      "texte": "Quel modificateur d'accès rend un membre accessible uniquement dans le même package ?",
+      "type": "qcm",
+      "options": ["public", "private", "protected", "default (aucun modificateur)"],
+      "reponse": "default (aucun modificateur)"
+    },
+    {
+      "id": 7,
+      "texte": "Que renvoie l'expression \"Hello\".concat(\" World\") ?",
+      "type": "qcm",
+      "options": ["Hello World", "HelloWorld", "Hello World ", "Hello+ World"],
+      "reponse": "Hello World"
+    },
+    {
+      "id": 8,
+      "texte": "Quelle interface possède la méthode compareTo() pour l'ordre naturel ?",
+      "type": "qcm",
+      "options": ["Comparator", "Comparable", "Runnable", "Serializable"],
+      "reponse": "Comparable"
+    },
+    {
+      "id": 9,
+      "texte": "Laquelle de ces syntaxes crée explicitement une nouvelle instance de String dans le tas (heap) ?",
+      "type": "qcm",
+      "options": ["String s = \"abc\";", "String s = new String(\"abc\");", "String s = String.valueOf(\"abc\");", "String s = \"abc\".intern();"],
+      "reponse": "String s = new String(\"abc\");"
+    },
+    {
+      "id": 10,
+      "texte": "Quel est l'intervalle de valeurs du type 'byte' en Java ?",
+      "type": "qcm",
+      "options": ["-128 à 127", "-255 à 255", "0 à 255", "-256 à 255"],
+      "reponse": "-128 à 127"
+    },
+    {
+      "id": 11,
+      "texte": "Qu'affiche System.out.println(1 + \"2\" + 3) ?",
+      "type": "qcm",
+      "options": ["123", "6", "15", "1+2+3"],
+      "reponse": "123"
+    },
+    {
+      "id": 12,
+      "texte": "En Java, lequel de ces énoncés est vrai concernant l'héritage multiple ?",
+      "type": "qcm",
+      "options": ["Une classe peut hériter de plusieurs classes", "Une classe peut implémenter plusieurs interfaces", "Les interfaces ne peuvent pas hériter d'autres interfaces", "Une classe abstraite ne peut pas implémenter d'interface"],
+      "reponse": "Une classe peut implémenter plusieurs interfaces"
+    },
+    {
+      "id": 13,
+      "texte": "Écrire le code pour déclarer une méthode qui retourne la somme de deux entiers.",
+      "type": "code",
+      "reponse_attendue": "public int somme(int a, int b) { return a + b; }"
+    },
+    {
+      "id": 14,
+      "texte": "Écrire une boucle for qui affiche les nombres de 1 à 10 (un par ligne).",
+      "type": "code",
+      "reponse_attendue": "for(int i = 1; i <= 10; i++) { System.out.println(i); }"
+    },
+    {
+      "id": 15,
+      "texte": "Déclarer une variable de type String nommée 'nom' et lui assigner la valeur \"Java\".",
+      "type": "code",
+      "reponse_attendue": "String nom = \"Java\";"
+    },
+    {
+      "id": 16,
+      "texte": "Écrire un bloc try-catch qui attrape une NumberFormatException.",
+      "type": "code",
+      "reponse_attendue": "try { } catch (NumberFormatException e) { }"
+    }
+  ]
+}
