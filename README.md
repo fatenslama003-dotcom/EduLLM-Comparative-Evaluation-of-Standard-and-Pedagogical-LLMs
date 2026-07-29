@@ -61,3 +61,66 @@ The platform is developed using:
 ---
 
 ## Project Structure
+
+EduLLM/
+│
+├── app.py # Main Streamlit application
+├── prompts.py # LLM system prompts
+├── problems.py # Java programming problems
+├── modules.py # Learning modules
+│
+├── pretest.json # Pre-test questions
+├── posttest.json # Post-test questions
+├── transfert.json # Transfer test questions
+│
+├── logs.csv # Student interactions
+├── reponses_apprentissage.csv
+│
+├── images/
+│ └── teluq.png
+│
+└── requirements.txt
+
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/EduLLM.git
+cd EduLLM
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Create a .env file:
+
+GITHUB_TOKEN=your_github_token
+
+Run the application:
+
+streamlit run app.py
+Experimental Workflow
+Registration
+     |
+     v
+Pre-test
+     |
+     v
+Java Learning Modules
+     |
+     +---- Reactive LLM
+     |
+     +---- Pedagogical LLM
+     |
+     v
+Post-test
+     |
+     v
+Transfer Test
+     |
+     v
+Data Analysis
